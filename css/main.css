@@ -1,0 +1,272 @@
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cartao {
+    width: 1499px;
+    height: 312px;
+    padding: 10px;
+}
+
+.redes {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -40px;
+    margin-right: 25px;
+}
+
+.redes img {
+    width: 25px;
+    padding: 0px 10px;
+}
+
+.menu {
+    margin-top: 50px;
+    margin-left: 12px;
+    margin-right: 5px;
+    border-bottom: 3px solid #efefef;
+    height: 50px;
+}
+
+.menus ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    height: 50px;
+}
+
+.menu ul li:hover {
+    border-bottom: 3px solid #00bac6;
+}
+
+.menu ul li a:hover {
+    color: #00bac6;    
+}
+
+.menus ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.busca {
+    text-align: center;
+    margin-right: 3px;
+    margin-top: -88px;
+    float: right;
+}
+
+.busca input {
+    background-image: url('../img/lupa.png');
+    background-repeat: no-repeat;
+    background-position: 96%;
+    padding: 5px;
+    height: 26px;
+    border: 1px solid #d6d6d6;
+}
+
+.busca input {
+    outline: none;
+}
+
+.slick {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.slider-principal {
+    width: 25%;
+ }
+
+.slider-principal img {
+    width: 80%;
+    height: 20%;
+
+}
+
+button.slick-prev {
+    font-size: 0;
+    border: none;
+    height: 51px;
+    width: 25px;
+    background-image: url('../img/arrow\ l.png');
+    position: absolute;
+    z-index: 9;
+    top: 40%;
+    left: 10px;
+    background-color: lightblue;
+}
+
+button.slick-next {
+    font-size: 0;
+    border: none;
+    height: 51px;
+    width: 25px;
+    background-image: url('../img/arrow\ r.png');
+    position: absolute;
+    z-index: 9;
+    top: 40%;
+    right: 10px;
+    background-color: lightblue;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    border: 5px solid #e7011b;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.slick-dots li {
+    display: inline-block;
+    padding-left: 5px;
+}
+
+li.slick-active button {
+    background: #00bac6;
+}
+
+.slick-dots {
+    list-style-type: none;
+    margin: 0 auto;
+    width: 50%;
+    position: relative;
+    left: -5%;
+    top: -8%;
+}
+
+ul.slick-dots li.slick-active {
+    background-color: transparent;
+}
+
+.texto-destaque {
+    text-align: center;
+}
+
+.texto-destaque h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color:  #fb4487;
+}
+
+.texto-destaque strong {
+    color: #4696d3;
+}
+
+.texto-destaque p {
+    font-size: 18px;
+    color: #9a9a9a;
+}
+
+.col-3 img {
+    width: 113px;
+    height: 113px;
+}
+
+.col-3 h3 {
+    color: #9a9a9a;
+}
+
+.col-3 {
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 20%;
+    float: left;
+    position: relative;
+}
+
+.meio {
+    margin-top: 435px;
+    background-color: #eeeeee;
+    height: 500px;    
+}
+
+.meio img {
+    width: 310px;
+    height: 185px;
+}
+
+.inicio { 
+    display: inline-flex;
+    margin: 115px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.bloco-imagem {
+    height: 300px;
+    border: 1px solid #c5c5c5;
+    padding-top: 15px;
+    padding-bottom: 132px;
+    margin-left: 33px;
+    margin-right: 17px;
+}
+
+.bloco-imagem h3, p {
+    text-align: center;
+}
+
+.bloco-imagem p {
+    margin-top: 1em;
+}
+
+h3 {
+    font-weight: normal!important;
+}
+
+p {
+    font-weight: 100;
+}
+
+.A {
+    margin-top: 25px;
+    background-color: #eeeeee;
+    height: 500px;
+}
+
+.A img {
+    width: 473px;
+    height: 300px;
+}
+
+.paper-fotos {
+    display: inline-flex;
+    margin: 115px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-left: 250px;
+}
+
+.paper-foto h3 {
+    text-align: center;
+}
+
+.paper-foto p {
+    text-align: center;
+    font-weight: 300;
+}
+
+.paper-foto {
+    height: 300px;
+    border: 1px solid #c5c5c5;
+    padding-top: 15px;
+    padding-bottom: 132px;
+    margin-right: 17px;
+}
+
+
+
+
+
+
+
+
