@@ -263,10 +263,84 @@ p {
     margin-right: 17px;
 }
 
+.maquinas {
+    margin-top: 25px;
+    background-color: #eeeeee;
+    height: 500px;   
+}
 
+.maquinas img {
+    width: 473px;
+    height: 300px;
+    border-radius: 50%
+}
 
+.maquinas h3 {
+    text-align: center;
+}
 
+.maquinas p {
+    text-align: center;
+    font-weight: 300;
+}
 
+.prensa {
+    display: inline-flex;
+    margin: 115px;
+    margin-top: 15px;
+    margin-left: 250px;
+}
 
+.prensa-imagem {
+    height: 300px;
+    border: 1px solid #c5c5c5;
+    padding-top: 15px;
+    padding-bottom: 132px;
+    margin-right: 17px;
+}
 
+.Bulk {
+    margin-top: 25px;
+    background-color: #eeeeee;
+    height: 760px;
+}
 
+.bulks img {
+    width: 473px;
+    height: 300px;
+}
+
+.bulks h3 {
+    text-align: center;
+}
+
+.bulks p {
+    text-align: center;
+    font-weight: 300;
+}
+
+.bulks {
+    display: inline-flex;
+    margin: 115px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.bulks-imagens {
+    height: 300px;
+    border: 1px solid #c5c5c5;
+    padding-top: 15px;
+    padding-bottom: 132px;
+    margin-right: 17px;
+}
+
+.contactar {
+    background: #222;
+    padding: 16px;
+    color: #eeeeee;
+    margin-left: -1000px;
+}
+
+.contactar-nos {
+    float: right;
+}
