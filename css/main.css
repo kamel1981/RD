@@ -167,9 +167,17 @@ ul.slick-dots li.slick-active {
     color: #9a9a9a;
 }
 
+.box {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #eeeeee;
+    height: 370px;
+}
+
 .col-3 img {
     width: 113px;
     height: 113px;
+    cursor: pointer;
 }
 
 .col-3 h3 {
@@ -181,11 +189,11 @@ ul.slick-dots li.slick-active {
     padding-right: 30px;
     width: 20%;
     float: left;
-    position: relative;
+    text-align: center;
 }
 
 .meio {
-    margin-top: 435px;
+    margin-top: 25px;
     background-color: #eeeeee;
     height: 500px;    
 }
@@ -193,6 +201,7 @@ ul.slick-dots li.slick-active {
 .meio img {
     width: 310px;
     height: 185px;
+    cursor: pointer;
 }
 
 .inicio { 
@@ -236,6 +245,7 @@ p {
 .A img {
     width: 473px;
     height: 300px;
+    cursor: pointer;
 }
 
 .paper-fotos {
@@ -272,7 +282,8 @@ p {
 .maquinas img {
     width: 473px;
     height: 300px;
-    border-radius: 50%
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 .maquinas h3 {
@@ -308,6 +319,7 @@ p {
 .bulks img {
     width: 473px;
     height: 300px;
+    cursor: pointer;
 }
 
 .bulks h3 {
@@ -357,5 +369,4 @@ footer a {
 
 footer a:hover {
     color: cornflowerblue;
-
 }
