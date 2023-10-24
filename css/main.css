@@ -163,7 +163,7 @@ ul.slick-dots li.slick-active {
 }
 
 .texto-destaque p {
-    font-size: 18px;
+    font-weight: 600;
     color: #9a9a9a;
 }
 
@@ -334,13 +334,28 @@ p {
     margin-right: 17px;
 }
 
-.contactar {
-    background: #222;
-    padding: 16px;
-    color: #eeeeee;
-    margin-left: -1000px;
+footer {
+    background-color: #222;
+    padding: 1rem;
+    color: #fff;
 }
 
-.contactar-nos {
+footer div {
     float: right;
+}
+
+footer p {
+    display: inline-flex;
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+
 }
