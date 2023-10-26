@@ -346,6 +346,72 @@ p {
     margin-right: 17px;
 }
 
+.inicio-manutenção h1 {
+    color: blue;
+    text-align: center;
+    font-weight: 700;
+}
+.inicio-manutenção h1 strong {
+    color: red;
+}
+
+.inicio-manutenção p {
+    color: black;
+    font-weight: 500;
+}
+
+.inicio-manutenção img {
+    width: 310px;
+    height: 185px;
+}
+
+.logos {
+    padding: 15px 0 0 300px;
+}
+
+.manutenções {
+    margin-top: 25px;
+    background-color: #eeeeee;
+    height: 500px;
+}
+
+.manutenções:before {
+    content: "Traga sua impressora para fazer um orçamento conosco! Sem compromisso.";
+    font-size: 22px;
+    color: red;
+    display: inline-block;
+    margin-left: 370px;
+}
+
+.manutenções-impressoras {
+    display: inline-flex;
+    margin: 100px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.manutenções-impressoras img {
+    width: 310px;
+    height: 185px;
+    border: 1px solid #c5c5c5;
+    margin-left: 33px;
+    margin-right: 17px;
+}
+
+.hp-lexmark {
+    display: inline-flex;
+    margin-top: -70px;
+    margin-left: 20px;
+}
+
+.hp-lexmark img {
+    width: 310px;
+    height: 185px;
+    border: 1px solid #c5c5c5;
+    margin-left: 33px;
+    margin-right: 17px;
+}
+
 footer {
     background-color: #222;
     padding: 1rem;
